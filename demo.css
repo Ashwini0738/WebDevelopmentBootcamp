@@ -89,3 +89,22 @@ h2,h3{
     /*float: left;
      margin-left: 100px; */
 }
+
+.footer-link:hover{
+    color:#f1f6f9;
+}
+.bottom-container{
+    background-color: #41aea9;
+    height: 69px;
+    padding: 28px;
+    margin-top: 30px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #16697a;
+    padding: 0 20px;
+    font-size: 22px;
+}
+.copyright{
+    font-size: 13px;
+}
