@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.top{
+    background-color: #c6ebe4;
+}
+.cloud{
+    padding: 20px;
+}
+#cloud-1{
+    position: relative;
+    left: 200px;
+}
+
+#cloud-2{
+    position: relative;
+    right: 200px;
+}
+h1{
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Satisfy', cursive;
+}
+
+h2,h3{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 164px;
+    border: solid;
+}
+.computer{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 150px;
+    border: solid;
+}
+
+.skill-row{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.btn{
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: turquoise;
+}
+
+.bottom-container{
+    margin: 20px;
+}
+
+.label{
+    display: inline;
+   /*  float: left;
+    margin-left: 500px; */
+}
+
+.input{
+    display: inline;
+    /*float: left;
+     margin-left: 100px; */
+}
